@@ -25,6 +25,9 @@ It returns None.
 
 6. status() - This function takes db file location as input and prints the summary of incidents i.e., Nature of the incident and its frequency of occurence on that particular day across Norman.
 
+Assumptions:
+1. Data format is same across all incident pdf's and every cell in each row is not null.
+2. There is only 1 heading row in incident pdf i.e., in first page of incident pdf.
 
 Possible Bugs:
 1. As splitting the data and reformatting into list of rows has been done based on '\n' if any cell is empty then there is a chance of misalignment and rows could get inserted incorrrectly.
