@@ -50,6 +50,11 @@ Every function is tested for 1 passing and 1 failing test case.
 3. For createdb() a dummy db is sent to test failed case and correct db is sent to test successful test case.
 4. For populatedb() an incorrect db, None data is sent to test failed test case and correctdb, incidents rows are sent to test successful test case scenario.
 5. for status() correct db is sent to test successful test case, dummy db is sent to test failed test case scenario.
+
+Possible Errors/Errors I faced:
+1. got " PyPDF2 package not found" error even it was already installed.
+I deleted Pipfile everywhere and rerun and then project executed successfully.
+
  	
 References :
 https://stackoverflow.com/questions/37058984/insert-multiple-rows-into-db-with-python-list-of-tuples
